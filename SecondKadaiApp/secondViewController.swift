@@ -17,14 +17,20 @@ class secondViewController: UIViewController {
     //初期設定
     var x:Int = 0
     var y:Int = 0
-    //初期設定終わり
+    var z:String?
+    //x,yリセット
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //初期設定
-        let result = x + y
-        label.text = "結果は\(result)です"
+        //let result = x + y
+        
+        //let result = z
+        
+        //label.text = "合計は\(result)です"
+        //label.text = "こんにちは\(result)さん"
+        label.text = z
 
         //初期設定終わり
         
