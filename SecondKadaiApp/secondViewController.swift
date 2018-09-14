@@ -30,7 +30,7 @@ class secondViewController: UIViewController {
         
         //label.text = "合計は\(result)です"
         //label.text = "こんにちは\(result)さん"
-        label.text = z
+        label.text = "こんにちは\(z!)さん"
 
         //初期設定終わり
         
