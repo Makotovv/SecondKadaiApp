@@ -15,7 +15,6 @@ class ViewController: UIViewController {
 //課題
 
     @IBOutlet weak var textfield: UITextField!
-    //var z:String? = nil  何となく入力
     
 //課題
 
@@ -31,25 +30,17 @@ class ViewController: UIViewController {
         
         
     }
- //課題データ
+
     //print(textfield) なぜ見れないか。そもそもtextfieldはどの様に入力値をかんりしているのか
     
     override func prepare(for segue: UIStoryboardSegue, sender:Any?){
         let secondViewController:secondViewController = segue.destination as! secondViewController
-        //secondViewController.x=1
-        //secondViewController.y=1
+
         //課題
-        //var x:String = textfield.text
-        //secondViewController.x:String = textfield
-        //secondViewController.z = textfield
-        //secondViewController.z=textfield.text
-        //secondViewController.z=self.textfield.text
-        //secondViewController.z=self.textfield
-        //secondViewController.z:String=self.textfield
         secondViewController.z=textfield.text
         //課題
     }
-//課題データ
+
     
     @IBAction func unwind(_ segue: UIStoryboardSegue){
         

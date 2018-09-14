@@ -14,25 +14,20 @@ class secondViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     
-    //初期設定
-    var x:Int = 0
-    var y:Int = 0
+    //課題
+
     var z:String?
-    //x,yリセット
+
+    //課題
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //初期設定
-        //let result = x + y
-        
-        //let result = z
-        
-        //label.text = "合計は\(result)です"
-        //label.text = "こんにちは\(result)さん"
-        label.text = "こんにちは\(z!)さん"
+        //課題
 
-        //初期設定終わり
+        label.text = "こんにちは、\(z!)さん"
+
+        //課題
         
         
     }
